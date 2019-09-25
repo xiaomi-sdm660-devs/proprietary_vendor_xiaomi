@@ -24,3 +24,4 @@ minReprocessInputHeight=3000
 logConfigMask=0
 #fovcEnable=1
 tintlessEnable=TRUE
+sessionFallbackWaitTime=1000

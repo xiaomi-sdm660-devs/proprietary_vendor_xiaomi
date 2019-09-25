@@ -37,8 +37,8 @@
       "irq_drive_strength":{ "type": "int", "ver": "0",
         "data": "0"
       },
-      "irq_trigger_type":{ "type": "int", "ver": "0",
-        "data": "1"
+      "irq_trigger_type":{ "type": "int", "ver": "21",
+        "data": "3"
       },
       "num_rail":{ "type": "int", "ver": "0",
         "data": "1"
