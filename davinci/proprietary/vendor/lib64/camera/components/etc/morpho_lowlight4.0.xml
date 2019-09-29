@@ -52,7 +52,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -70,7 +70,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -88,7 +88,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -272,7 +272,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -290,7 +290,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -308,7 +308,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -326,7 +326,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -344,7 +344,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>1</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -362,7 +362,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>1</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -844,7 +844,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -862,7 +862,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -880,7 +880,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -898,7 +898,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -916,7 +916,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>1</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -934,7 +934,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>1</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1194,7 +1194,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1212,7 +1212,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1230,7 +1230,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1248,7 +1248,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1266,7 +1266,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>1</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1284,7 +1284,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>1</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1544,7 +1544,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1562,7 +1562,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1580,7 +1580,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1598,7 +1598,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1616,7 +1616,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>1</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1634,7 +1634,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>1</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1880,7 +1880,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1897,7 +1897,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1914,7 +1914,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>1</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1931,7 +1931,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>0</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1948,7 +1948,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>1</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
@@ -1965,7 +1965,7 @@
         <saturation>1024</saturation>
         <sharpness>0</sharpness>
         <spike_noise_level>0</spike_noise_level>
-        <block_cnr>2</block_cnr>
+        <block_cnr>1</block_cnr>
         <mergenumber>1</mergenumber>
         <sharpness_thres>85</sharpness_thres>
       </iso>
