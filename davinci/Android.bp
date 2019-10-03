@@ -23,7 +23,7 @@ cc_prebuilt_library_shared {
 	name: "libaudioparsers",
 	owner: "xiaomi",
 	strip: {
-		none:true,
+		none: true,
 	},
 	target: {
 		android_arm: {
@@ -34,6 +34,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	prefer: true,
 	soc_specific: true,
 }
 
