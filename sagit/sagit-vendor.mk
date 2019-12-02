@@ -20,7 +20,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/firmware/tfa98xx_aac.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_aac.cnt \
     vendor/xiaomi/sagit/proprietary/vendor/firmware/tfa98xx_ssi.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_ssi.cnt \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/hw/consumerir.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8998.so \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Global_cal.acdb \
