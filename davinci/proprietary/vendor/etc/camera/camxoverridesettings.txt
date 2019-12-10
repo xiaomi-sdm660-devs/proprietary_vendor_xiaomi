@@ -1,6 +1,6 @@
 multiCameraEnable=TRUE
-logInfoMask=0x10080
-overrideLogLevels=0x1F
+logInfoMask=0x0
+overrideLogLevels=0x0
 enableNCSService=TRUE
 disablePDAF=FALSE
 disableFocusIndication=1
