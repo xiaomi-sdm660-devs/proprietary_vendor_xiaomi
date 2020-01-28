@@ -101,17 +101,6 @@
             Resources="0x43000000, 0x19, 0x40800000, 1000, 0x40800100, 1000, 0x40C00000, 0x2,
                        0x43400000, 0x1F40" />
 
-    <!--webview Scroll boost-->
-        <!-- LLCBW_MIN_FREQ resource opcode, value-->
-        <!-- CPUBOOST_MIN_FREQ BIG CORE resource opcode, value -->
-        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
-        <!-- SCHEDBOOST resource opcode, value-->
-        <!-- POWER COLLAPSE resource opcode, value-->
-        <!-- Type="5", webview Scroll boost -->
-        <Config
-            Id="0x00001080" Type="5" Enable="true" Timeout="2500" Target="sdm845"
-            Resources="0x43000000, 0x19, 0x40800000, 1000, 0x40800100, 1000, 0x40C00000, 0x2, 0x40400000, 0x1" />
-
     <!--Horizontal Scroll boost-->
         <!-- SCHEDBOOST resource opcode, value-->
 
@@ -143,8 +132,8 @@
 
         <Config
             Id="0x00001088" Enable="true" Target="sdm845"
-            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000,0xFFF,
-                       0x40800100,0xFFF,0x43000000,0xFF,0x43400000,0xFF,0x40400000,1" />
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
+                       0x40800100, 0xFFF, 0x43000000, 0xFF, 0x43400000, 0xFF, 0x40400000, 1" />
 
     <!--Rotation latency boost-->
         <!-- SCHEDBOOST resource opcode, value-->
@@ -168,6 +157,19 @@
             Id="0x00001090" Enable="true" Timeout="1000" Target="sdm845"
             Resources="0x40800100, 1000, 0x4280C000, 596" />
 
+    <!--Display on Resource -->
+        <!-- Display on resource opcode, value -->
+        <Config
+                Id="0x00001041" Enable="true" Timeout="0" Target="sdm845"
+                Resources="0x40000000, 1" />
+    <!--Display off Resource -->
+        <!-- Display on resource opcode, value -->
+        <Config
+                Id="0x00001040" Enable="true" Timeout="0" Target="sdm845"
+                Resources="0x40000000, 0x0" />
+
+    </PerfBoost>
+
     <!--XiaoMi bluetooth boost-->
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
@@ -185,5 +187,4 @@
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
                        0x40800100, 0xFFF, 0x41800000, 140, 0x40400000, 0x1,
                        0x43000000, 0xFF, 0x43400000, 0xFFFF" />
-    </PerfBoost>
 </BoostConfigs>
