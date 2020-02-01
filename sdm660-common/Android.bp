@@ -85,6 +85,16 @@ android_app_import {
 }
 
 android_app_import {
+	name: "SoterService",
+	owner: "xiaomi",
+	apk: "proprietary/app/SoterService/SoterService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "datastatusnotification",
 	owner: "xiaomi",
 	apk: "proprietary/app/datastatusnotification/datastatusnotification.apk",
