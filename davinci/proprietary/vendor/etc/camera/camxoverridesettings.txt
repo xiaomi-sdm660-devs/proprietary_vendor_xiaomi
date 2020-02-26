@@ -1,6 +1,6 @@
 multiCameraEnable=TRUE
-logInfoMask=0x0
-overrideLogLevels=0x0
+logInfoMask=0x10080
+overrideLogLevels=0x1F
 enableNCSService=TRUE
 disablePDAF=FALSE
 disableFocusIndication=1
@@ -25,3 +25,4 @@ logConfigMask=0
 #fovcEnable=1
 tintlessEnable=TRUE
 sessionFallbackWaitTime=1000
+sessionDumpForFlush=TRUE
