@@ -532,7 +532,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
-    libgpustats \
     SoterService \
     WfdService \
     com.qualcomm.location \
