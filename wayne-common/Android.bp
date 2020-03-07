@@ -19,3 +19,22 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "libthermalclient",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libthermalclient.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+

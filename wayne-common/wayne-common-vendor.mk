@@ -18,8 +18,20 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/sdm660-common
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/wayne-common/proprietary/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b00 \
+    vendor/xiaomi/wayne-common/proprietary/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b01 \
+    vendor/xiaomi/wayne-common/proprietary/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b02 \
+    vendor/xiaomi/wayne-common/proprietary/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b03 \
+    vendor/xiaomi/wayne-common/proprietary/etc/firmware/goodixfp.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b04 \
+    vendor/xiaomi/wayne-common/proprietary/etc/firmware/goodixfp.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b05 \
+    vendor/xiaomi/wayne-common/proprietary/etc/firmware/goodixfp.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b06 \
+    vendor/xiaomi/wayne-common/proprietary/etc/firmware/goodixfp.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b07 \
+    vendor/xiaomi/wayne-common/proprietary/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.mdt \
+    vendor/xiaomi/wayne-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/xiaomi/wayne-common/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/xiaomi/wayne-common/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
+    vendor/xiaomi/wayne-common/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
+    vendor/xiaomi/wayne-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/xiaomi/wayne-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/xiaomi/wayne-common/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/xiaomi/wayne-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -56,13 +68,33 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/xiaomi/wayne-common/proprietary/vendor/etc/qdcm_calib_data_jdi_nt36672_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_nt36672_fhd_video_mode_dsi_panel.xml \
     vendor/xiaomi/wayne-common/proprietary/vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml \
+    vendor/xiaomi/wayne-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/a512_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b01 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/a512_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b02 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/a512_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.elf \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/a512_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.mdt \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
     vendor/xiaomi/wayne-common/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/xiaomi/wayne-common/proprietary/vendor/firmware/dbmd4_va_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dbmd4_va_fw.bin \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/fpctzappfingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b00 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/fpctzappfingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b01 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/fpctzappfingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b02 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/fpctzappfingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b03 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/fpctzappfingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b04 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/fpctzappfingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b05 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/fpctzappfingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b06 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/fpctzappfingerprint.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b07 \
+    vendor/xiaomi/wayne-common/proprietary/vendor/firmware/fpctzappfingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.mdt \
     vendor/xiaomi/wayne-common/proprietary/vendor/firmware/tas2557_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557_uCDSP.bin \
     vendor/xiaomi/wayne-common/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.sdm660.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.sdm660.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/libactuator_wayne_imx376_ofilm_back_ii_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_wayne_imx376_ofilm_back_ii_dw9763.so \
@@ -730,12 +762,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/libvidhance_gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance_gyro.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib/mibokeh_660_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_660_opencl.bin \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libbinder.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib64/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.sdm660.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib64/hw/consumerir.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.sdm660.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib64/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.sdm660.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
@@ -748,4 +787,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_reg.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
+    vendor/xiaomi/wayne-common/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so
+
+PRODUCT_PACKAGES += \
+    libthermalclient
